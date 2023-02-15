@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title> Base64 Tool </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+<body class="column-flexbox">
+    <nav>
+        <a href="#decode">Decode</a>
+        <a href="#encode">Encode</a>
+    </nav>
+    <!-- Header -->
+    <div role="banner" id="website-title">
+        <h1> BASE64 Compression Tool </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error animi beatae, ipsa atque nemo numquam
+            laborum voluptatibus sit adipisci quo odit commodi vel quidem suscipit quisquam repudiandae deserunt!
+            Amet, ipsam.</p>
+    </div>
+    <!-- Page 1 -->
+    <div id="decode" class="page inner-flex">
+        <div class="page-title">
+            <h2> Decode </h2>
+            <p>Encoded string input:</p>
+        </div>
+
+        <div>
+            <textarea placeholder="Insert hash here..." id="decode-input" class="roundy"></textarea>
+        </div>
+        <div>
+            <button type="button" id="decode-btn">Decode()</button>
+        </div>
+
+        <div class="output">
+            <p>Decoded string output:</p>
+            <div id="decode-output" class="output-content roundy">
+                <p>Press "Decode()" to show result.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE BREAK -->
+
+    <div id="encode" class="page inner-flex">
+        <div class="page-title">
+            <h2> Encode </h2>
+            <p>String to encode input:</p>
+        </div>
+
+        <div>
+            <textarea placeholder="Insert string here..." id="encode-input" class="roundy"></textarea>
+        </div>
+        <div>
+            <button type="button" id="encode-btn">Encode()</button>
+        </div>
+
+        <div class="output">
+            <p>Encoded string output:</p>
+            <div id="encode-output" class="output-content roundy">
+                <p>Press Encode()" to show result.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer  -->
+    <footer>
+        Footer : TODO Credits / GitLinks
+    </footer>
+    <!-- Load after page loads -->
+    <script type="module" src="/javascript/script.js"> </script>
+</body>
+
+</html>
